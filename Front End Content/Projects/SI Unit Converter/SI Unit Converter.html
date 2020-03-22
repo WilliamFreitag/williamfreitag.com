@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../css/generic.css">
+    <script src = "SI Unit Converter.js"></script>
+    <title>SI Unit Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="titleBox">
+        <div class="title">
+          SI Unit Converter
+        </div>
+      </div>
+      <div class="box">
+        <div class="divider">
+          <div class="titleBox">
+            <div class="subtitle">
+              Input
+            </div>
+          </div>
+          <select id = "inputUnit"class="dropDownBox" name="input">
+            <option value="12">tera (x10^12)</option>
+            <option value="9">giga (x10^9)</option>
+            <option value="6">mega (x10^6)</option>
+            <option value="3">kilo (x10^3)</option>
+            <option value="2">hecto (x10^2)</option>
+            <option value="1">deka (x10^1)</option>
+            <option value="0">no prefix (x10^0)</option>
+            <option value="-1">deci (x10^-1)</option>
+            <option value="-2">centi (x10^-2)</option>
+            <option value="-3">milli (x10^-3)</option>
+            <option value="-6">micro (x10^-6)</option>
+            <option value="-9">nano (x10^-9)</option>
+            <option value="-12">pico (x10^-12)</option>
+          </select>
+          <div><input id = "inputValue" class = "display" type = "text" value = ""/></div>
+          <div><button class = "button" onclick = "convert()">Convert</button></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="titleBox">
+          <div class="subtitle">
+            Output
+          </div>
+        </div>
+        <select id = "outputUnit" class="dropDownBox" name="input">
+          <option value="12">tera (x10^12)</option>
+          <option value="9">giga (x10^9)</option>
+          <option value="6">mega (x10^6)</option>
+          <option value="3">kilo (x10^3)</option>
+          <option value="2">hecto (x10^2)</option>
+          <option value="1">deka (x10^1)</option>
+          <option value="0">no prefix (x10^0)</option>
+          <option value="-1">deci (x10^-1)</option>
+          <option value="-2">centi (x10^-2)</option>
+          <option value="-3">milli (x10^-3)</option>
+          <option value="-6">micro (x10^-6)</option>
+          <option value="-9">nano (x10^-9)</option>
+          <option value="-12">pico (x10^-12)</option>
+        </select>
+        <div><input id = "outputValue" class = "display" type = "text" value = "" onclick="outputValue.blur()"/></div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="container">
+      <div class = "footer">
+        <a href="../../index.html" class = "text">Go Back</a>
+      </div>
+    </div>
+  </footer>
+</html>

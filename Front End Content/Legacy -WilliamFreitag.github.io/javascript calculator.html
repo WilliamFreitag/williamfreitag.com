@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Javascript Calculator</title>
+   </head>
+
+   <body>
+     <header>
+       <h1>4-function Calculator</h1>
+       <hr/>
+     </header>
+
+     <main>
+       <div><input id = "num1" type = "text" value = "enter a number value" onclick = "clearText(num1)"/></div>
+       <div><input id = "num2" type = "text" value = "enter a number value" onclick = "clearText(num2)"/></div>
+       <div><input id = "add" name = "operation" type = "radio">add</div>
+       <div><input id = "subtract" name = "operation" type = "radio">subtract</div>
+       <div><input id = "multiply" name = "operation" type = "radio">multiply</div>
+       <div><input id = "divide" name = "operation" type = "radio">divide</div>
+       <div><button id = "calculate" onclick = "calculate()">Calculate</button></div>
+       <div id = "answer">answer:</div>
+     </main>
+
+     <footer>
+         <hr />
+         <a href = "index.html">go back</a>
+     </footer>
+     <script src="calculator.js" charset="UTF-8"></script>
+   </body>
+</html>
