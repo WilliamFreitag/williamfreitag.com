@@ -25,7 +25,7 @@
             <li><a href = "Projects/RGBtoHexcodeConverter/RGBtoHexcodeCalculator.html" class = "text">RGB to Hexcode converter</a></li>
             <li><a href = "Redirect/githubs/pong" class = "text">Java Pong</a><a href = "Projects/Ping-Pong.zip" class = "text">(Download)</a></li>
             <li><a href = "Projects/4-functionCalculator/javascriptCalculator.html" class = "text">4-function calculator</a></li>
-            <li><a href = "http://www.google.com" class = "text">This Webpage's github repo!</a></li>
+            <li><a href = "Redirect/githubs/this" class = "text">This Webpage's github repo!</a></li>
           </ul>
         </div>
       </div>
