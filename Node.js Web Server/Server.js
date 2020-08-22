@@ -24,7 +24,7 @@ io.on('connection', (socket) => {
 });
 
 app.get('/Projects/InstantMessagingApp',(req,res) => {
-  res.render("chat.ejs",{});
+  res.render("chat",{});
 });
 
 app.get('/',(req,res)=>res.sendFile(path.resolve(__dirname+'/../Front End Content/index.html')));
