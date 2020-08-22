@@ -8,6 +8,9 @@ Currently Displayed Projects:
 Instant messaging app
  -This is a simple web application which allows users to sign up, manage their friends list, and message each other uing a global chatroom or direct messaging. 
 
+Planets
+ -This is a simple web application which implements Newton's law of universal gravitation to simulate gravitational forces between objects.
+
 Javafx games
  -Java typing game: https://github.com/WilliamFreitag/Typing-Game
  -Java pong: https://github.com/WilliamFreitag/Pong
