@@ -10,6 +10,7 @@ Instant messaging app
 
 Planets
  -This is a simple web application which implements Newton's law of universal gravitation to simulate gravitational forces between objects.
+ https://github.com/WilliamFreitag/Planets
 
 Javafx games
  -Java typing game: https://github.com/WilliamFreitag/Typing-Game
