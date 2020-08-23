@@ -4,7 +4,7 @@ const app = express();
 const path = require('path');
 
 app.get('/Projects/ChatApp',(req,res) => {
-  res.redirect("http://www.williamf.mynetgear.com:82");
+  res.redirect("http://williamf.mynetgear.com:82");
 });
 
 app.get('/',(req,res)=>res.sendFile(path.resolve(__dirname+'/../Front End Content/index.html')));
