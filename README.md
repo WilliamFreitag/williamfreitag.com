@@ -6,10 +6,10 @@ This website itself has been one of my main projects. It is a nodejs application
 Currently Displayed Projects:
 
 Instant messaging app
- -This is a simple web application which allows users to sign up, manage their friends list, and message each other uing a global chatroom or direct messaging. 
+ -This is a web application which allows users to sign up, manage their friends list, and message each other uing a global chatroom or direct messaging. 
 
 Planets
- -This is a simple web application which implements Newton's law of universal gravitation to simulate gravitational forces between objects.
+ -This is a web application which implements Newton's law of universal gravitation to simulate gravitational forces between objects.
  https://github.com/WilliamFreitag/Planets
 
 Javafx games
@@ -17,7 +17,7 @@ Javafx games
  -Java pong: https://github.com/WilliamFreitag/Pong
  These games were created when I was learning the javafx library. I am especially proud of my typing game because it was my first original game.
 
-Simple frontend Javascript apps
+frontend Javascript apps
  -SI Unit Converter
  -RGB to Hexcode converter
  -4-funtion calculator
